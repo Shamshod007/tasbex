@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+}
+.tasbeh{
+    width: 300px;
+    height: 350px;
+    background: url(../img/bg.jpg) no-repeat center/cover;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 10%;
+    border-radius: 15%;
+}
+.ekran{
+    width: 65%;
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    caret-color: #fff;
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 40px;
+}
+.tugma{
+    position: absolute;
+    top: 47%;
+    left: 36%;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: grey;
+    border: 1px solid #fff;
+}
+.nolga{
+    position: absolute;
+    top: 31%;
+    left: 73%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: burlywood;
+}
